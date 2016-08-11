@@ -1,0 +1,33 @@
+
+@import 'partial';
+
+
+// This is Sass Comment
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #ADD8E6;
+$text-color: white;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+
+}
+
+h1 {
+	font: $font-stack;
+	size: 30px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+.text {
+	color: pink;
+	font-size: 30px;
+	text-align: center;
+}
+
+.sub_par{
+	@extend .text;
+}
